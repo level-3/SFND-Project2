@@ -21,9 +21,9 @@ using namespace std;
 /* MAIN PROGRAM */
 int main(int argc, const char *argv[])
 {
-    bool verbose = false;
-    bool visualize_result = false;
-    bool visualize_matches = false;
+    bool verbose = true;
+    bool visualize_result = true;
+    bool visualize_matches = true;
     bool print_header = true;
     bool print_to_file = true;
     int match_count ;
